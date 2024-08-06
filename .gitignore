@@ -1,15 +1,69 @@
 # Environnement virtuel
 env/
+venv/
+.venv/
 
 # Fichiers de cache
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Configuration de l'IDE
-.vscode/
 .idea/
+.vscode/
 
 # Fichiers de logs
 *.log
 
 # Dépendances Python
-*.pyc
+*.egg
+*.egg-info
+dist/
+build/
+.eggs/
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Pytest
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environnement de tests
+htmlcov/
+.tox/
+.nox/
+
+# Coverage reports
+.coverage
+*.cover
+*.py,cover
+.coverage.*
+.cache
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Profiling data
+.prof
+
+# Local env files
+.env
+.env.*
