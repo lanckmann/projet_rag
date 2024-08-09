@@ -1,0 +1,15 @@
+fastapi~=0.112.0
+uvicorn
+sqlalchemy~=2.0.32
+asyncpg
+pgvector~=0.3.2
+nltk
+python-dotenv~=1.0.1
+PyPDF2~=3.0.1
+pytesseract~=0.3.10
+PIL
+fitz~=0.0.1.dev2
+
+openai~=1.40.0
+pydantic~=2.8.2
+pillow~=10.4.0
